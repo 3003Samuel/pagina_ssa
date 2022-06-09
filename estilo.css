@@ -1,0 +1,200 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{margin: 0; padding: 0;
+}
+
+body{
+font-family: arial, helvetica, sans-serif;
+font-size: 20px;
+}
+
+.menu{
+	list-style: none;
+	border: 0px solid #c0c0c0;
+	float: left;
+	height: auto;
+	width: 100%;
+	text-align: center;
+	background: #ECECFB;
+	
+}
+
+.menu li{
+position:relative;
+float:left;
+border-right:0px solid #c0c0c0;
+background: #ECECFB;
+
+}
+
+.menu li a{color:#333; text-decoration:none; padding:10px 46.2px; display: flex;}
+
+.menu li a:hover{
+background:#333;
+color:#fff;
+-moz-box-shadow:0 3px 10px 0 #CCC;
+-webkit-box-shadow:0 3px 10px 0 #ccc;
+text-shadow:0px 0px 5px #fff;
+}
+
+.menu li  ul{
+position:absolute;
+top:43px;
+left:0;
+background-color:#fff;
+display:none;
+}
+
+.menu li:hover ul, .menu li.over ul{display:block;}
+
+.menu li ul li{
+border:1px solid #c0c0c0;
+display:block;
+width:240px;
+}
+
+
+td {
+	color: #FFF;
+	text-decoration: none;
+}
+#cor_texto_logo {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 24px;
+	font-style: normal;
+	color: #000;
+	text-decoration: none;
+}
+.cor_logo {
+	font-size: 12px;
+	color: #666;
+	text-align: right;
+}
+.menu_center {
+	width: 100%;
+	z-index: auto;
+}
+.texto_rod {
+	font-size: 12px;
+	color: #FFF;
+	text-decoration: none;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: lighter;
+}
+.center_top {
+	text-align: center;
+}
+.cor_logo p img {
+	text-align: center;
+}
+.menu_top {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	color: #333;
+}
+h4 {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #333;
+	font-size: 16px;
+}
+h5 {
+	color: #666;
+	font-size: 12px;
+	font-family: Verdana, Geneva, sans-serif;
+	font-style: normal;
+	text-transform: none;
+	text-decoration: none;
+	font-variant: normal;
+	font-weight: lighter;
+}
+h3 {
+	font-family: Verdana, Geneva, sans-serif;
+	color: #333;
+}
+
+
+
+.img_center {
+	text-align: center;
+	vertical-align: middle;
+}
+texto_home {
+	text-align: justify;
+}
+texto_home {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: lighter;
+	color: #333;
+	font-style: normal;
+	line-height: normal;
+	font-variant: normal;
+}
+.descricao {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 14px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: lighter;
+	font-variant: normal;
+	color: #333;
+	text-decoration: none;
+	text-transform: none;
+	page-break-before: right;
+	text-align: justify;
+	page-break-after: right;
+}
+.button_enviar {
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: #CCC;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: bold;
+	font-variant: normal;
+	cursor: auto;
+}
+
+h1 {font-family: Arial, Helvetica, sans-serif;
+color: #313140;
+}
+h4 {
+	text-align: center;
+	text-decoration: none;
+}
+div {
+	text-align:left;
+	margin: 15px;	
+}
+td {
+	font-size: 14px;
+}
+button {
+	background-color: #100040;
+	color: white;
+	height: 35px;
+	width: 375;	
+	cursor: pointer;
+}
+.button {
+	background-color: #100040;
+	color: white;
+	height: 55px;
+	width: 375px;	
+	cursor: pointer;
+}
+input {
+	width: 100%;
+	height: 35px;
+	border-radius: 5px;	
+}
+
+textarea {
+	width: 100%;
+	border-radius: 5px;	
+}
